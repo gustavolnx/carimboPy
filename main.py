@@ -38,7 +38,7 @@ for input_file in input_files:
 
             image_rect = fitz.Rect(50, y, x - 460, y + 170)
             page.insert_image(
-                image_rect, filename="./assets/carimbo.png", keep_proportion=True
+                image_rect, filename="./carimbos/carimbo.png", keep_proportion=True
             )
 
     # Nome do arquivo carimbado

@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.scene-1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(./wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+.formCarimbo {
+	border: 5px solid rgb(0, 153, 255);
+	width: 50%;
+	height: 70%;
+	position: absolute;
+	border-radius: 20%;
+	left: 24%;
+	top: 11%;
+    opacity: 1;
+}
+
+
+#addCarimbo {
+	/* border: 1px solid red; */
+	width: 100%;
+	height: 17%;
+	top: 24%;
+	position: absolute;
+	left: 23%;
+}
+#addCarimbo label {
+    font-size: 2vw;
+    color: rgb(0, 153, 255);
+    font-weight: bolder;
+   
+}
+
+#addCarimbo input {
+    font-size: 1.5vw;
+    color: rgb(0, 153, 255);
+    font-weight: bolder;
+}
+
+
+#addPDF {
+	/* border: 1px solid red; */
+	width: 100%;
+	height: 15%;
+	top: 51%;
+	position: absolute;
+	left: 23%;
+}
+#addPDF label {
+    font-size: 2vw;
+    color: rgb(0, 153, 255);
+    font-weight: bolder;
+   
+}
+
+#addPDF input {
+    font-size: 1.5vw;
+    color: rgb(0, 153, 255);
+    font-weight: bolder;
+}
+
+#btnCarimbar {
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 9%;
+    top: 70%;
+    position: absolute;
+    left: 34%;
+    font-size: 1.5vw;
+
+}
